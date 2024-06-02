@@ -124,6 +124,13 @@ img {
 }
 
 /* main-section */
+.intro-icon-decoration {
+  padding: 24px 100px;
+  background: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 
 .section {
   padding: 120px 0;
@@ -133,6 +140,14 @@ img {
   color: #2e2f42;
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-title {
@@ -144,6 +159,8 @@ img {
   color: #fff;
   padding-bottom: 48px;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-button {
@@ -160,6 +177,8 @@ img {
   height: 56px;
   border-radius: 4px;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-button:hover {
